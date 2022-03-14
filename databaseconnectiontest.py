@@ -2,11 +2,11 @@ import mysql.connector
 
 # Configure database
 connection = mysql.connector.MySQLConnection(
-  host     = "h60rz6g05y9j.us-east-4.psdb.cloud",
-  user     = "99iacl0gsbgk",
-  passwd   = "pscale_pw_4aWTdl3CDZLquMMGOmgMefNPw1A5PcIm94H6otZY9JU",
-  db       = "thisonepass",
-  ssl_ca   = "/etc/ssl/certs/ca-certificates.crt"
+  host     = "",
+  user     = "",
+  passwd   = "",
+  db       = "",
+  ssl_ca   = ""
 )
 db = connection.cursor()
 connection.autocommit = True
