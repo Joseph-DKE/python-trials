@@ -2,9 +2,9 @@ from selenium import webdriver
 import time
         
 #path = r'C:\\Users\\Joseph Etse\\Desktop\\chromedriver_win32\\chromedriver.exe'
-browser = webdriver.Chrome('path to chromedriver')
+browser = webdriver.Chrome('C:\\Users\\Joseph Etse\\Desktop\\chromedriver_win32\\chromedriver.exe')
 
-browser.get('website link')
+browser.get('https://www.sportybet.com/gh/m/games/sportygames?game=turbo-aviator')
 
 #browser.find_element_by_id('search_term').send_keys('.')
 #browser.find_elements_by_class_name("payouts.ng-star-inserted")
@@ -15,9 +15,9 @@ browser.find_element_by_xpath('/html/body/div[4]/div/div/div[2]/div').click()
 
 #from loogin page fill form
 time.sleep(1)
-browser.find_element_by_xpath('/html/body/div[4]/div/div/div[2]/form/div[1]/input').send_keys('username/number')
+browser.find_element_by_xpath('/html/body/div[4]/div/div/div[2]/form/div[1]/input').send_keys('249645256')
 time.sleep(1)
-browser.find_element_by_xpath('/html/body/div[4]/div/div/div[2]/form/div[3]/input').send_keys('password')
+browser.find_element_by_xpath('/html/body/div[4]/div/div/div[2]/form/div[3]/input').send_keys('Collins1234@')
 
 #click login
 time.sleep(1)
